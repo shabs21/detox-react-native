@@ -12,6 +12,7 @@
     "build:e2e": "detox build --configuration android.att.debug"
   },
   "dependencies": {
+    "@cucumber/cucumber": "^10.8.0",
     "react": "18.2.0",
     "react-native": "0.74.3"
   },
