@@ -9,7 +9,8 @@
     "start": "react-native start",
     "test": "jest",
     "test:e2e": "detox test --configuration android.att.debug",
-    "build:e2e": "detox build --configuration android.att.debug"
+    "build:e2e": "detox build --configuration android.att.debug",
+    "cucumber": "npx cucumber-js e2e/features --require cucumber.js"
   },
   "dependencies": {
     "@cucumber/cucumber": "^10.8.0",
